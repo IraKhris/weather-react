@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
+
 .App {
   max-width: 600px;
   margin: 30px auto;
+  font-family: "Inter", sans-serif;
 }
 
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App footer a {
+  color: #379683;
 }
 
 .App-logo {

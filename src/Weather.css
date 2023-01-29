@@ -1,21 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
 
-body {
-  background: #edf5e1;
-}
 .Weather {
   background: white;
   font-family: "Inter", sans-serif;
-  /* border: 1px solid #dadde1; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 16px;
   border-radius: 4px;
-  /* color: rgb(135, 135, 135); */
 }
 
 .Weather h1 {
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 400;
   margin: 20px 0 0 0;
   line-height: 29px;
 }
@@ -34,7 +29,7 @@ body {
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: #05386b;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -54,4 +49,21 @@ body {
 .Weather .icon {
   padding-top: 0;
   max-height: 58px;
+}
+
+.Weather .search-button {
+  margin-left: 0;
+  line-height: 1.5;
+  padding: 0.375rem 1.5rem;
+  border: 1px solid #8ee4af;
+  background: #8ee4af;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: 200ms all ease-in-out;
+}
+
+.Weather .search-button:hover {
+  background: #05386b;
+  border: 1px solid #05386b;
 }
