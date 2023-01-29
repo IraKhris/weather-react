@@ -11,7 +11,7 @@ export default function App() {
           <Weather defaultCity="Berlin" />
         </div>
         <br />
-        <div>
+        <footer>
           <a
             href="https://github.com/IraKhris/weather-react"
             target="_blank"
@@ -27,7 +27,7 @@ export default function App() {
           >
             Iryna Khrystych
           </a>
-        </div>
+        </footer>
       </div>
     </div>
   );
