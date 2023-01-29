@@ -1,14 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+
+body {
+  background: #edf5e1;
+}
 .Weather {
-  font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  background: white;
+  font-family: "Inter", sans-serif;
+  /* border: 1px solid #dadde1; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  /* color: rgb(135, 135, 135); */
 }
 
 .Weather h1 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 200;
   margin: 20px 0 0 0;
   line-height: 29px;
 }
@@ -42,4 +49,9 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+.Weather .icon {
+  padding-top: 0;
+  max-height: 58px;
 }
