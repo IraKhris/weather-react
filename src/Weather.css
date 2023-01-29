@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
 .Weather {
-  background: #edf5e1;
+  background: whitesmoke;
   font-family: "Inter", sans-serif;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 16px;
   border-radius: 4px;
+}
+a:link {
+  text-decoration: none;
 }
 
 .Weather h1 {
   color: #05386b;
   font-size: 24px;
   font-weight: 500;
-  margin: 20px 0 0 0;
+  margin: 23px 0 0 0;
   line-height: 29px;
 }
 

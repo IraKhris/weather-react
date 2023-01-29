@@ -6,6 +6,10 @@
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .App footer {
   font-size: 16px;
   margin: 0 auto;
