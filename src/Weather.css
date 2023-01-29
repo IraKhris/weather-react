@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
-
 .Weather {
-  background: white;
+  background: #edf5e1;
   font-family: "Inter", sans-serif;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 16px;
@@ -9,8 +8,9 @@
 }
 
 .Weather h1 {
+  color: #05386b;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 20px 0 0 0;
   line-height: 29px;
 }
@@ -66,4 +66,8 @@
 .Weather .search-button:hover {
   background: #05386b;
   border: 1px solid #05386b;
+}
+
+.Weather .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgb(5 56 107 / 25%);
 }
