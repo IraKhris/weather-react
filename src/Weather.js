@@ -78,7 +78,7 @@ export default function Weather(props) {
       // coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
-      // date: new Date(response.data.dt * 1000),
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
@@ -125,7 +125,6 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        {/* <WeatherForecast coordinates={weatherData.coordinates} /> */}
       </div>
     );
   } else {
