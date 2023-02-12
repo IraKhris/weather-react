@@ -3,6 +3,7 @@ import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 import WeatherForecast from "./WeatherForecast";
+import Spinning from "./Spinning";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -64,6 +65,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return <Spinning />;
   }
 }
