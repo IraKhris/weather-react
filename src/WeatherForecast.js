@@ -28,6 +28,7 @@ export default function WeatherForecast(props) {
                 </div>
               );
             }
+            return null;
           })}
         </div>
       </div>
@@ -39,6 +40,6 @@ export default function WeatherForecast(props) {
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lon=${lon}&lat=${lat}&key=${apiKey}`;
 
     axios.get(apiUrl).then(handleResponse);
+    return null;
   }
-  return null;
 }
