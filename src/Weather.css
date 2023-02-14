@@ -12,12 +12,20 @@ a:link {
 .unit {
   color: #8875ff;
 }
+.date {
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.WeatherInfo {
+  margin-bottom: 20px;
+}
+
 .Weather h1 {
   color: #de5499;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 500;
-  margin: 23px 0 0 0;
-  line-height: 29px;
+  margin: 20px 0 5px 0;
+  line-height: 40px;
 }
 
 .Weather ul {
@@ -35,20 +43,20 @@ a:link {
 .Weather .temperature {
   font-weight: bold;
   color: #de5499;
-  font-size: 64px;
-  line-height: 64px;
-  margin-left: 5px;
+  font-size: 76px;
+  line-height: 100px;
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .Weather .unit {
   color: grey;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -38px;
+  margin-top: 20px;
 }
 
 .unit a {
@@ -57,7 +65,6 @@ a:link {
 
 .Weather .icon {
   padding-top: 0;
-  max-height: 58px;
 }
 
 .Weather .search-button {
@@ -84,9 +91,31 @@ a:link {
 .WeatherIcon {
   padding: 0;
   margin: 0;
-  max-height: 70px;
+  max-height: 110px;
 }
 
 .Spinning {
   margin: 70px auto;
+}
+@media screen and (max-width: 600px) {
+  .Weather {
+    max-width: 98%;
+    text-align: center;
+  }
+  .Weather .search-button {
+    font-size: 13px;
+    padding: 0.375rem 13px;
+  }
+  .Weather .form-control {
+    font-size: 13px;
+  }
+
+  .date {
+    margin-top: 20px;
+  }
+  .temperature-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
