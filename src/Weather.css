@@ -118,4 +118,7 @@ a:link {
     align-items: center;
     justify-content: center;
   }
+  .Weather h1 {
+    margin: 40px 0 5px 0;
+  }
 }
