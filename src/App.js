@@ -19,11 +19,7 @@ export default function App() {
             Open Sourced{" "}
           </a>
           by{" "}
-          <a
-            href="https://gregarious-sprinkles-cd236b.netlify.app"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://irynakhrystych.dev" target="_blank" rel="noreferrer">
             Iryna Khrystych
           </a>
         </footer>
